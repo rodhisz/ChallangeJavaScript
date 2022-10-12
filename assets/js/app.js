@@ -16,7 +16,7 @@ document.querySelector('.btnChangeWord').addEventListener('click', () => {
 
 // SOAL 2
 document.querySelector('.btnCheckTypeNumber').addEventListener('click', () => {
-  const result = checkTypeNumber(getInputValue('.givenValue'))
+  const result = checkTypeNumber(getInputValue('.givenNumber'))
   setTextContent('.resultTypeNumber', result)
 })
 
